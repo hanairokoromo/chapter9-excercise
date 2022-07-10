@@ -29,21 +29,21 @@ main{
 
 .step-img1{
     height: 150px;
-    background-image: url(img/flow01.png);
+    background-image: url(chapter9-img/flow01.jpg);
     background-position: bottom;
     background-size: cover;
 }
 
 .step-img2{
     height: 150px;
-    background-image: url(img/flow02.png);
+    background-image: url(chapter9-img/flow02.jpg);
     background-position: bottom;
     background-size: cover;
 }
 
 .step-img3{
     height: 150px;
-    background-image: url(img/flow03.png);
+    background-image: url(chapter9-img/flow03.jpg);
     background-position: bottom;
     background-size: cover;
 }
@@ -63,4 +63,35 @@ main{
 footer{
     height: 50px;
     background-color: #aaa
+}
+
+@media screen and (max-width: 425px){
+    header{
+        width: 100%;
+    }
+    
+    main{
+        width: 100%;
+        display: block;
+    }
+    
+    .step-box{
+        width: 90%;
+        margin-bottom: 20px;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    
+    .step-img1{
+        height: 150px;
+    }
+    
+    .step-img2{
+        height: 150px;
+    }
+    
+    .step-img3{
+        height: 150px;
+    }
+    
 }
